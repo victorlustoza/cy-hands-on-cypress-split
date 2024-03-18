@@ -3,7 +3,7 @@ on: push
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
-    # run 10 copies of the current job in parallel
+    # run 10 copies of the current job in parallel #
     strategy:
       fail-fast: false
       matrix:
